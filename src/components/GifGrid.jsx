@@ -18,7 +18,7 @@ export const GifGrid = ({ category }) => {
       <h3>{category}</h3>
 
       {/* // Si está cargando, mostramos un mensaje de carga */}
-      {isLoading && <h2>Cargando...</h2>}
+      {isLoading && <h2>Buscando...</h2>}
 
       {/* // Creamos un div con la clase card-grid */}
       <div className="card-grid">
