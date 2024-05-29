@@ -36,7 +36,7 @@ export const AddCategory = ({ onNewCategory }) => {
       <input
 
         type="text"
-        placeholder="Buscar gifs"
+        placeholder="Busca tu héroe"
 
         // Vinculamos el valor del campo de entrada a inputValue
         value={inputValue}
